@@ -246,26 +246,6 @@ bar {
         
 }
 
-### Bottom bar
-bar {
-        status_command SCRIPT_DIR=/home/filippo/.config/i3blocks i3blocks -c "/home/filippo/.config/i3blocks/bottom_config"
-	      position bottom
-        font pango:JetbrainsMono Nerd 11
-        workspace_buttons no
-
- 
- colors {
-    separator #FFFFFF
-    background #3F3F3F
-    statusline #FFFFFF
-    focused_workspace #1793D1 #1793D1 #FFFFFF
-    active_workspace #fdf6e3 #6c71c4 #fdf6e3
-    inactive_workspace #002b36 #586e75 #002b36
-    urgent_workspace #d33682 #d33682 #fdf6e3
-  }
-        
-}
-
 # Set the defaul keyboard layout
 exec_always --no-startup-id "setxkbmap -model pc104 -layout it -variant ,, -option grp:alt_shift_toggle"
 
