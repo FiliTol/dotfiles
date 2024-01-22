@@ -29,12 +29,12 @@ command=$SCRIPT_DIR/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
-[arch-update]
-command=$SCRIPT_DIR/arch-update/arch-update
-interval=10
-markup=pango
-LABEL=Updates: 
-LABEL=  
+#[arch-update]
+#command=$SCRIPT_DIR/arch-update/arch-update
+#interval=10
+#markup=pango
+#LABEL=Updates: 
+#LABEL=  
 
 # Volume indicator
 #
