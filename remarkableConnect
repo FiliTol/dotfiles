@@ -1,0 +1,4 @@
+#! /bin/bash
+
+#ip link                # Find remarkable interface name
+sudo dhclient enp0s20f0u1c2 # eventually substitute with the actual interface name
