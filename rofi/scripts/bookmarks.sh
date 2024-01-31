@@ -2,4 +2,4 @@
 
 theme="$HOME/dotfiles/rofi/themes/verical.rasi"
 
-dotool tyke $(grep -v '^#' ~/Nextcloud/Data/bookmarks | rofi -dmenu -i | cut -d' ' -f1)
+xdotool type $(grep -v '^#' ~/Nextcloud/Data/bookmarks | rofi -no-config -p "Search bookmark" -font "JetbrainsMono Nerd Font 12" -dmenu -i -l 20 | cut -d' ' -f1)
