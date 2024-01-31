@@ -83,9 +83,11 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 #tiling_drag modifier titlebar
 
-# Call the command to see bookmarks in rofi dmenu
-
+# Call the command to see bookmarks in rofi dmenu.
 bindsym $mod+Insert exec --no-startup-id /home/filippo/dotfiles/rofi/scripts/bookmarks.sh
+
+# Call script to add highlighted text to bookmarks file.
+bindsym $mod+Shift+b exec --no-startup-id /home/filippo/dotfiles/rofi/scripts/bookmarkthis.sh
 
 # start a terminal
 bindsym $mod+Return exec alacritty &
