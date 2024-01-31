@@ -6,9 +6,9 @@
  */
 
 * {
-    background-color:           #282c34;
-    border-color:               #282c34;
-    text-color:                 #bbc2cf;
+    background-color:           #3F3F3F;
+    border-color:               #3F3F3F;
+    text-color:                 #ffffff;
     height:                     23px;
     font:                       "Jetbrains Mono Nerd 12";
     prompt-font:                "Jetbrains Mono Nerd 12";
@@ -24,8 +24,8 @@ USE_ICON=NO
 */
 
 #window {
-    anchor: north;
-    location: north;
+    anchor: south;
+    location: south;
     width: 100%;
     padding: 0px;
     children: [ horibox ];

@@ -10,8 +10,8 @@
 ## style-1   style-2   style-3   style-4   style-5
 
 # Current Theme
-dir="$HOME/dotfiles/rofi/scripts"
-theme="$HOME/dotfiles/rofi/themes/dmenu.rasi"
+dir="$HOME/dotfiles/rofi/themes"
+theme="dmenu"
 
 # CMDs
 uptime="$(uptime -p | sed -e 's/up //g')"
