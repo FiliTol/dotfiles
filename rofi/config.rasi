@@ -3,4 +3,4 @@ configuration {
  font: "JetbrainsMono Nerd 12";
  combi-modi: "window,drun,ssh";
  }
-@theme "~/.config/rofi/themes/dmenu.rasi"
+@theme "/home/filippo/dotfiles/rofi/themes/dmenu.rasi"

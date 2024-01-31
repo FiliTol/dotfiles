@@ -1,3 +1,5 @@
 #! /bin/sh
 
-xdotool type $(grep -v '^#' ~/Nextcloud/Data/bookmarks | rofi -dmenu -i -l 50 | cut -d' ' -f1)
+theme="$HOME/dotfiles/rofi/themes/verical.rasi"
+
+dotool tyke $(grep -v '^#' ~/Nextcloud/Data/bookmarks | rofi -dmenu -i | cut -d' ' -f1)
