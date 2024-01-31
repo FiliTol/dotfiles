@@ -18,6 +18,11 @@
     selected-normal-background: #ae3f3e;
     selected-normal-foreground: #ffffff;
 }
+
+/*
+USE_ICON=NO
+*/
+
 #window {
     anchor: north;
     location: north;

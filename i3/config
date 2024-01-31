@@ -29,7 +29,7 @@ exec_always --no-startup-id feh --bg-scale "/home/filippo/Pictures/Wallpapers/ar
 
 # Start screenshot tool
 #bindsym $mod+Print exec --no-startup-id gscreenshot &
-bindsym $mod+Print exec --no-startup-id /home/filippo/.config/rofi/applets/bin/screenshot.sh
+bindsym $mod+Print exec --no-startup-id /home/filippo/dotfiles/rofi/scripts/screenshot.sh
 for_window [class="Viewnior"] floating enable
 
 # Hide mouse after 2 seconds
