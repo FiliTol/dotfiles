@@ -41,9 +41,6 @@ exec_always --no-startup-id picom --config /home/filippo/.config/picom/picom.con
 # Start Blugon (used for timezone-based red light management)
 exec_always --no-startup-id blugon &
 
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
-# they are included here as an example. Modify as you see fit.
-
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec_always --no-startup-id xss-lock --transfer-sleep-lock i3lock
@@ -85,6 +82,10 @@ floating_modifier $mod
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
 #tiling_drag modifier titlebar
+
+# Call the command to see bookmarks in rofi dmenu
+
+bindsym $mod+Insert exec --no-startup-id /home/filippo/dotfiles/rofi/scripts/bookmarks.sh
 
 # start a terminal
 bindsym $mod+Return exec alacritty &
@@ -252,6 +253,7 @@ for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 
 gaps inner 15
+gaps bottom 9
 default_border pixel 1
 default_floating_border pixel 1
 smart_borders on
