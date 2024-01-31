@@ -25,7 +25,7 @@ exec --no-startup-id dex --autostart --environment i3 &
 #exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets &
 exec --no-startup-id nextcloud &
 # Wallpaper
-exec_always --no-startup-id feh --bg-scale "/home/filippo/Downloads/arch.jpg"
+exec_always --no-startup-id feh --bg-scale "/home/filippo/Pictures/Wallpapers/arch.jpg"
 
 # Start screenshot tool
 #bindsym $mod+Print exec --no-startup-id gscreenshot &
