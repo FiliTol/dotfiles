@@ -32,6 +32,10 @@ exec_always --no-startup-id feh --bg-scale "/home/filippo/Pictures/Wallpapers/ar
 bindsym $mod+Print exec --no-startup-id /home/filippo/.config/rofi/scripts/screenshot.sh
 for_window [class="Viewnior"] floating enable
 
+# Start dunst and its settings file
+# KEEP THIS CODE COMMENTED. UNCOMMENT ONLY FOR DEBUGGING AND SETTINGS EDITING!!
+#exec_always --no-startup-id exec pkill dunst && dunst -config ~/.config/dunst/dunstrc
+
 # Hide mouse after 2 seconds
 exec_always --no-startup-id unclutter -idle 2 &
 
