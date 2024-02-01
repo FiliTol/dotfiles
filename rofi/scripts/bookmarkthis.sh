@@ -1,7 +1,7 @@
 #! /bin/sh
 
 bookmark="$(xclip -o)"
-file="$HOME/Nextcloud/Data/bookmarks"
+file="$HOME/Nextcloud/Data/bookmarks.txt"
 
 if grep -q "^$bookmark " "$file"; then
 	notify-send "Content is already present in your bookmarks file!"
