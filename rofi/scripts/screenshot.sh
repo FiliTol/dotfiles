@@ -41,7 +41,8 @@ rofi_cmd() {
 		-theme-str "listview {columns: $list_col; lines: $list_row;}" \
 		-theme-str 'textbox-prompt-colon {str: "";}' \
 		-dmenu \
-		-p "$prompt" \
+		-m eDP1
+	-p "$prompt" \
 		-mesg "$mesg" \
 		-markup-rows \
 		-theme ${theme}
@@ -49,7 +50,7 @@ rofi_cmd() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$option_1\n$option_2\n$option_3\n$option_4\n$option_5" | rofi -dmenu
+	echo -e "$option_1\n$option_2\n$option_3\n$option_4\n$option_5" | rofi -dmenu -m eDP1
 }
 
 # Screenshot

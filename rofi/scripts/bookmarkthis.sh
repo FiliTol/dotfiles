@@ -7,7 +7,7 @@ if grep -q "^$bookmark " "$file"; then
 	notify-send "Content is already present in your bookmarks file!"
 else
 	while true; do
-		input=$(rofi -no-config -p "Set label" -font "JetbrainsMono Nerd Font 12" -dmenu -p "Enter a bookmark label: ")
+		input=$(rofi -no-config -m eDP1 -p "Set label" -font "JetbrainsMono Nerd Font 12" -dmenu -p "Enter a bookmark label: ")
 
 		if [ -n "$input" ]; then
 			label="$input"

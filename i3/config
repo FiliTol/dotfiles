@@ -100,7 +100,7 @@ bindsym $mod+Return exec alacritty &
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec --no-startup-id rofi -m eDP1 -show drun 
 bindsym $mod+Shift+Ctrl+L exec --no-startup-id /home/filippo/.config/rofi/scripts/powermenu.sh
 
 # change focus
