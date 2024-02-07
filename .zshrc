@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Enable vi mode
 bindkey -v
+
+# Set aliases
+alias sent='/home/filippo/AUR/sent/sent'

@@ -257,6 +257,7 @@ for_window [all] title_window_icon yes
 
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
+for_window [window_role="MATLAB R2023b - academic use"] floating enable
 
 gaps inner 15
 gaps bottom 9
@@ -274,4 +275,7 @@ client.urgent           #2F343A #900000 #FFFFFF #900000   #0C0C0C
 #client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 #
 client.background       #1793D1
+
+
+
 
