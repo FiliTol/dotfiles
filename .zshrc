@@ -105,3 +105,4 @@ bindkey -v
 
 # Set aliases
 alias sent='/home/filippo/AUR/sent/sent'
+export PATH=/usr/local/stata:$PATH
