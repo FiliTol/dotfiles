@@ -178,6 +178,11 @@ font_weight=bold
 interval=persist
 markup=pango
 
+[days_since]
+command=/home/filippo/dotfiles/i3blocks/days_since.sh
+interval=60
+
+
 # Date Time
 #
 [time]
