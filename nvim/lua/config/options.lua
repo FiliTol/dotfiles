@@ -5,3 +5,6 @@
 local set = vim.opt
 
 set.relativenumber = false
+set.cc = "80"
+vim.wo.wrap = true
+vim.wo.linebreak = true

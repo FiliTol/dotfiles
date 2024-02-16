@@ -25,7 +25,7 @@ exec --no-startup-id dex --autostart --environment i3 &
 #exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets &
 exec --no-startup-id nextcloud &
 # Wallpaper
-exec_always --no-startup-id feh --bg-scale "/home/filippo/Pictures/Wallpapers/arch.jpg"
+exec_always --no-startup-id feh --bg-scale "/home/filippo/Pictures/Wallpapers/kid.jpg"
 
 # Start screenshot tool
 #bindsym $mod+Print exec --no-startup-id gscreenshot &
@@ -236,7 +236,7 @@ bar {
  
  colors {
     separator #FFFFFF
-    background #3F3F3F
+    background #354755
     statusline #FFFFFF
     focused_workspace #1793D1 #1793D1 #FFFFFF
     active_workspace #fdf6e3 #6c71c4 #fdf6e3
@@ -268,8 +268,8 @@ smart_borders on
 
 # Colors
 # class                 border  bground text    indicator child_border
-client.focused          #1793D1 #1793D1 #1793D1 #1793D1   #8fc5e0
-client.focused_inactive #333333 #1A1AFF #FFFFFF #484E50   #5F676A
+client.focused          #acbed4 #acbed4 #1793D1 #1793D1   #8fc5e0
+client.focused_inactive #abbdd3 #abbdd3 #FFFFFF #484E50   #5F676A
 #client.unfocused        #333333 #1A1AFF #FFFFFF #292D2E   #222222
 client.urgent           #2F343A #900000 #FFFFFF #900000   #0C0C0C
 #client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
