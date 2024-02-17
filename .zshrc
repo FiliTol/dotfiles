@@ -108,4 +108,4 @@ alias sent='/home/filippo/AUR/sent/sent'
 export PATH=/usr/local/stata:$PATH
 export PATH=$PATH:/usr/local/go/bin                     # Go installation for HUGO testing
 export PATH=$PATH:/root/.local/share/gem/ruby/3.0.0/bin # Gem installation for jekyll
-
+export EDITOR="/usr/bin/nvim"
