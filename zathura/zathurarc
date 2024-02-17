@@ -1,3 +1,8 @@
 set selection-clipboard clipboard
-
-
+set font "JetbrainsMono Nerd 13"
+set inputbar-bg "#2a2e45" 
+set inputbar-fg "#FFFFFF" 
+set statusbar-bg "#2a2e45"
+set statusbar-fg "#FFFFFF" 
+set guioptions "vsh"
+set incremental-search true
