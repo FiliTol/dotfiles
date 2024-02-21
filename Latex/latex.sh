@@ -3,6 +3,8 @@
 # This template generates a Latex template
 
 TYPE=$1
+FILE_NAME=$2
+FILE_EXTENSION=".tex"
 
 if [[ $TYPE == "article" ]]; then
 	echo "\documentclass{article} 
@@ -22,5 +24,5 @@ if [[ $TYPE == "article" ]]; then
 
 % Your content goes here 
 
-\end{document})"
+\end{document})" >$FILE_NAME$FILE_EXTENSION
 fi
