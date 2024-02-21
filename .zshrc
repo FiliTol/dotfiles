@@ -70,7 +70,7 @@ ZSH_THEME="eastwood"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git aliases themes)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,9 +104,9 @@ source $ZSH/oh-my-zsh.sh
 bindkey -v
 
 # Set aliases
-alias sent='/home/filippo/AUR/sent/sent'
+alias sent='~/AUR/sent/sent'
 #export PATH=/usr/local/stata:$PATH                     # Comment it because it brokes pacman
 export PATH=$PATH:/usr/local/go/bin                     # Go installation for HUGO testing
 export PATH=$PATH:/root/.local/share/gem/ruby/3.0.0/bin # Gem installation for jekyll
 export EDITOR="/usr/bin/nvim"
-alias generate_latex='/home/filippo/dotfiles/Latex/latex.sh'
+alias generate_latex='~/dotfiles/Latex/latex.sh'
