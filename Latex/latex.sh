@@ -6,6 +6,11 @@ TYPE=$1
 FILE_NAME=$2
 FILE_EXTENSION=".tex"
 
+# Create a folder that will contain all the files and the knitted pdf
+if [ ! -d $FILE_NAME ]; then
+	mkdir -p $FILE_NAME
+fi
+
 if [[ $TYPE == "article" ]]; then
 	echo "\documentclass{article} 
 \usepackage[utf8]{inputenc} % UTF-8 encoding 
@@ -24,5 +29,5 @@ if [[ $TYPE == "article" ]]; then
 
 % Your content goes here 
 
-\end{document})" >$FILE_NAME$FILE_EXTENSION
+\end{document})" >$FILE_NAME/$FILE_NAME$FILE_EXTENSION
 fi
