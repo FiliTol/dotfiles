@@ -109,4 +109,5 @@ alias sent='~/AUR/sent/sent'
 export PATH=$PATH:/usr/local/go/bin                     # Go installation for HUGO testing
 export PATH=$PATH:/root/.local/share/gem/ruby/3.0.0/bin # Gem installation for jekyll
 export EDITOR="/usr/bin/nvim"
-alias generate_latex='~/dotfiles/Latex/latex.sh'
+alias generate_article='~/dotfiles/Latex/article.sh'
+alias generate_presentation='~/dotfiles/Latex/presentation.sh'
