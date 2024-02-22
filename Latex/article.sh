@@ -1,6 +1,6 @@
 #! /bin/sh
 
-# This template generates a Latex template
+# This template generates a Latex article
 
 TYPE=$1
 FILE_PATH=$2

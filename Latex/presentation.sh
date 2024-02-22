@@ -29,7 +29,7 @@ echo "\documentclass{beamer}
 
 \begin{frame}
 \frametitle{Insert frame title} \pause
-\includegraphics[scale=0.7]{/Image/path}
+%\includegraphics[scale=0.7]{/Image/path}
 \end{frame}
 
 \begin{frame}
