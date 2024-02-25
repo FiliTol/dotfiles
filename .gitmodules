@@ -1,0 +1,3 @@
+[submodule "Latex/UNIVE-beamer"]
+	path = Latex/UNIVE-beamer
+	url = https://github.com/most-serene/UNIVE-beamer.git
