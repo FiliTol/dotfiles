@@ -13,7 +13,7 @@ if [ ! -d $FILE_PATH ]; then
 	mkdir -p $FILE_PATH
 fi
 if [[ $TYPE == "unive" ]]; then
-  cp -r -t $FILE_PATH/$FILE_NAME$FILE_EXTENSION  ~/dotfiles/Latex/UNIVE-beamer/main.tex ~/dotfiles/Latex/UNIVE-beamer/template.sty ~/dotfiles/Latex/UNIVE-beamer/images ~/dotfiles/Latex/UNIVE-beamer/bib.bib
+	cp -r -t $FILE_PATH/ ~/dotfiles/Latex/UNIVE-beamer/main.tex ~/dotfiles/Latex/UNIVE-beamer/template.sty ~/dotfiles/Latex/UNIVE-beamer/images ~/dotfiles/Latex/UNIVE-beamer/bib.bib
 else
 	echo "\documentclass{beamer}
 \usepackage{graphicx}
@@ -41,3 +41,4 @@ else
 \end{quotation}
 \end{frame}
 \end{document})" >$FILE_PATH/$FILE_NAME$FILE_EXTENSION
+fi
