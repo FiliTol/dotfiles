@@ -1,8 +1,8 @@
 #! /bin/sh
 
 # This template generates a Latex presentation
-
 FILE_PATH=$1
+TYPE=${2:-personal} # If not specified it generates personal template
 FILE_EXTENSION=".tex"
 
 FILE_NAME=$(basename $FILE_PATH)
@@ -12,14 +12,16 @@ FOLDER_PATH=$(dirname $FILE_PATH)
 if [ ! -d $FILE_PATH ]; then
 	mkdir -p $FILE_PATH
 fi
-
-echo "\documentclass{beamer}
+if [[ $TYPE == "unive" ]]; then
+  cp -r -t $FILE_PATH/$FILE_NAME$FILE_EXTENSION  ~/dotfiles/Latex/UNIVE-beamer/main.tex ~/dotfiles/Latex/UNIVE-beamer/template.sty ~/dotfiles/Latex/UNIVE-beamer/images ~/dotfiles/Latex/UNIVE-beamer/bib.bib
+else
+	echo "\documentclass{beamer}
 \usepackage{graphicx}
 \graphicspath{ {../}}
 
 \title{Write here the presentation title}
 \author{Filippo}
-\usetheme{Frankfurt}
+\usetheme{Singapore}
 
 \begin{document}
 
