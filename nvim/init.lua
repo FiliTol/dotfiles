@@ -6,3 +6,4 @@ require("config.lazy")
 -- ###################################
 -- set shorter name for keymap function
 local kmap = vim.keymap.set
+require("lazyvim").setup({ colorscheme = "slate" })
