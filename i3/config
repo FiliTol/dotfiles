@@ -262,14 +262,14 @@ for_window [window_role="MATLAB R2023b - academic use"] floating enable
 
 gaps inner 15
 gaps bottom 9
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 2
+default_floating_border pixel 2
 smart_borders on
 
 
 # Colors
 # class                 border  bground text    indicator child_border
-client.focused          #FFFFFF #acbed4 #1793D1 #1793D1   #8fc5e0
+client.focused          #BF00FE #acbed4 #1793D1 #1793D1   #8fc5e0
 client.focused_inactive #abbdd3 #abbdd3 #FFFFFF #484E50   #5F676A
 #client.unfocused        #333333 #1A1AFF #FFFFFF #292D2E   #222222
 client.urgent           #2F343A #900000 #FFFFFF #900000   #0C0C0C
