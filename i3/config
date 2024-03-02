@@ -29,7 +29,7 @@ exec --no-startup-id xsetroot -solid "#050709"
 #exec_always --no-startup-id feh --bg-scale "/home/filippo/Pictures/Wallpapers/kid.jpg"
 
 # Start activity tracker
-exec --no-startup-id aw-qt &
+#exec --no-startup-id aw-qt &
 
 # Start screenshot tool
 #bindsym $mod+Print exec --no-startup-id gscreenshot &
