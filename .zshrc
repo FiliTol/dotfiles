@@ -113,3 +113,4 @@ export EDITOR="/usr/bin/nvim"
 alias generate_article='~/dotfiles/Latex/article.sh'
 alias generate_presentation='~/dotfiles/Latex/presentation.sh'
 export PATH=$PATH:/home/filippo/bin/
+

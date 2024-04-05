@@ -31,6 +31,9 @@ exec --no-startup-id xsetroot -solid "#050709"
 # Start activity tracker
 #exec --no-startup-id aw-qt &
 
+# Reload single screen/dual screen configuration
+exec_always --no-startup-id autorandr --change &
+
 # Start screenshot tool
 #bindsym $mod+Print exec --no-startup-id gscreenshot &
 bindsym $mod+Print exec --no-startup-id /home/filippo/.config/rofi/scripts/screenshot.sh
