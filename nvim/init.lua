@@ -6,12 +6,11 @@ require("config.lazy")
 -- ###################################
 -- set shorter name for keymap function
 local kmap = vim.keymap.set
--- vim.opt.clipboard = "unnamedplus"
 vim.api.nvim_set_option("clipboard", "unnamed")
-require("lazyvim").setup({ colorscheme = "slate" })
+require("lazyvim").setup({ colorscheme = "desert" })
 require("codesnap").setup({
   mac_window_bar = false,
-  title = "",
+  title = "CodeSnap.nvim",
   code_font_family = "CaskaydiaCove Nerd Font",
   watermark_font_family = "Pacifico",
   watermark = "",
