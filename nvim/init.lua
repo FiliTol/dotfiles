@@ -7,7 +7,7 @@ require("config.lazy")
 -- set shorter name for keymap function
 local kmap = vim.keymap.set
 vim.api.nvim_set_option("clipboard", "unnamed")
-require("lazyvim").setup({ colorscheme = "desert" })
+require("lazyvim").setup({ colorscheme = "pablo" })
 require("codesnap").setup({
   mac_window_bar = false,
   title = "CodeSnap.nvim",
