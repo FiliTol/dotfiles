@@ -169,7 +169,7 @@ command=$SCRIPT_DIR/backlight/backlight
 label=☀
 interval=1
 #STEP_SIZE=5
-#USE_SUDO=0
+#USE_SUDO=1
 
 [xkb_layout]
 command=$SCRIPT_DIR/xkb_layout/xkb_layout
